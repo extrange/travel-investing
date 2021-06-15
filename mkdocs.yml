@@ -1,0 +1,19 @@
+site_name: LIFFAM - Lifestyle, Investing, Fitness, Food, Advice for Men
+theme:
+  name: material
+  icon:
+    logo: material/home
+site_url: https://liffam.nicholaslyz.com/
+nav:
+  - Home: 'index.md'
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - footnotes
