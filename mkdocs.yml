@@ -6,6 +6,8 @@ theme:
 site_url: https://liffam.nicholaslyz.com/
 nav:
   - Home: 'index.md'
+  - Insurance:
+    - GE TotalCare Rider Comparison: 'posts/insurance/2021-06-18-ge-totalcare-comparison.md'
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:

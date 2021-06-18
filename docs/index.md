@@ -16,6 +16,8 @@ Everything is version controlled with `git`, so don't worry about messing anythi
 
 In case you're wondering, we can get free images from [unsplash.com](https://unsplash.com/).
 
+Finally, the Github repository hosting our site is [here](https://github.com/extrange/travel-investing).
+
 ## Technical
 
 ### Setup
@@ -47,3 +49,5 @@ To build documentation: `mkdocs build`
 `dev` is where we'll make draft changes.
 
 `main` is the main branch, and upon pushing to `main`, a build will be triggered via github-actions on github-pages.
+
+`gh-pages` is the branch which hosts the compiled html/js/css files, and is where github-pages serves content from.
