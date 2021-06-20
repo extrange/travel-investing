@@ -3,10 +3,13 @@ theme:
   name: material
   icon:
     logo: material/home
+  features:
+    - navigation.instant
 site_url: https://liffam.nicholaslyz.com/
 nav:
   - Home: 'index.md'
   - Insurance:
+    - Comparison of ISP Riders: 'posts/insurance/2021-06-19-comparison-of-isp-riders.md'
     - GE TotalCare Rider Comparison: 'posts/insurance/2021-06-18-ge-totalcare-comparison.md'
 markdown_extensions:
   - attr_list
@@ -19,3 +22,17 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - footnotes
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  analytics:
+    provider: google
+    property: G-DVHHHM5CFW
